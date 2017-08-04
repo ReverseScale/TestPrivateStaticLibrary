@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PodTestPrivateStaticLibrary_Example' do
+  pod 'PodTestPrivateStaticLibrary', :path => '../'
+
+  target 'PodTestPrivateStaticLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
